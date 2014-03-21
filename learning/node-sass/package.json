@@ -1,0 +1,30 @@
+{
+  "name": "node-sass",
+  "version": "0.0.1",
+  "description": "portfolio",
+  "main": "app.js",
+  "engines": {
+    "node": "0.10.x"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "./node_modules/.bin/grunt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CooperAtive/node-sass.git"
+  },
+  "author": "Cooper Trowbridge",
+  "license": "MIT",
+  "dependencies": {
+    "grunt": "~0.4.2",
+    "grunt-sass": "~0.11.0",
+    "express": "~3.4.8",
+    "jade": "~1.1.5"
+  },
+  "devDependencies": {
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-cli": "~0.1.13",
+    "grunt-contrib-jshint": "~0.8.0"
+  }
+}

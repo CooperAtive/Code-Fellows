@@ -1,0 +1,29 @@
+var worker = new Worker('worker.js');
+
+worker.addEventListener('message', log(s) {
+
+    console.log('recieved: ' + s.data.toString());
+}, false );
+
+worker.postMessage(1000000000000);
+
+/////worker.js
+
+onmessage = function expensive(s) {
+    var ops = s.data;
+    temp = 0l
+
+    while(ops--)...
+
+
+Node web worker
+Fork processes
+child_process.fork
+
+
+how is concurrency handled in ruby, python etc
+
+@lasericus
+GitHub: laser
+
+blog.carbonfive/author/erin
